@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".aboutApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Motivation Speech"
+            android:textColor="#000"
+            android:textSize="50dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is created to show some motivation speech of some of special person in the world.\n\nThis app can help us to gain more knowledge."
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:padding="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is a project of Wireless Programming Course"
+            android:textColor="#000"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

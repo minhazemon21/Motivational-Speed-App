@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ffff"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:weightSum="9"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_height="match_parent"
+                android:background="#CD5C5C"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    android:background="#CD5C5C"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv1img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/cv1Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mohammad">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv1tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Muhammed Ali"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv2img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv2Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mendela">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv2tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Nelson Mandela"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv3img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv3Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/murtin">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv3tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Martin Luther King Jr"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv4img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv4Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ains">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv4tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Albart Einstein"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv5img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv5Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/linkon">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv5tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Abraham Lincoin"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv6img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv6Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mother">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv6tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Mother Teresa"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv7img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv7Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/neel">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv7tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Neil Armstrong"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv8img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv8Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/shekh">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv8tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Sheikh Mujibur Rahman"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp"
+                    app:contentPaddingRight="10dp"
+                    app:contentPaddingLeft="10dp"
+                    app:cardMaxElevation="15dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cv9img1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/cv9Image1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/job">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/cv9tv1"
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".5"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:background="#fff0f0"
+                            android:layout_below="@+id/cv2Image1"
+                            android:layout_marginTop="11dp"
+                            android:gravity="center"
+                            android:text="Steve Jobs"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

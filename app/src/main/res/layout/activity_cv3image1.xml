@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:background="#fefbd8"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+
+
+        <ImageView
+            android:id="@+id/cv1Image_1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_weight="1.5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/murtin">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/cv1tv1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight=".5"
+            android:layout_below="@+id/cv1Image_1"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold|italic"
+            android:text="Speech"
+            android:textSize="50dp"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Human progress is neither automatic nor inevitable... Every step toward the goal of justice requires sacrifice, suffering, and struggle; the tireless exertions and passionate concern of dedicated individuals.\n\n\t\t -- Martin Luther King, Jr."
+            android:textSize="25dp">
+
+        </TextView>
+
+    </ScrollView>
+
+</LinearLayout>

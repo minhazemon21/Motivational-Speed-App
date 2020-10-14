@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.p_blog">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/motivationalspeech"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/motivationalspeech"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".contactMe"
+            android:parentActivityName=".MainActivity"
+            >
+        </activity>
+        <activity
+            android:name=".cv9image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv8image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv7image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv6image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv5image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv4image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv3image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv2image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cv1image1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".aboutApp"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".aboutMe"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
